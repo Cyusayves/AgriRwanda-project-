@@ -1,0 +1,5 @@
+services:
+  - type: static
+    name: agri-rwanda
+    staticPublishPath: .output/public
+    buildCommand: npm run build
